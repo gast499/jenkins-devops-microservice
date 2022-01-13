@@ -2,7 +2,7 @@ pipeline {
 	agent any
 	// agent { docker { image 'node:latest' } }
 	tools {
-		maven "myMaven"
+		maven "MyMaven"
 	}
 	environment {
 		dockerHome = tool 'myDocker'
